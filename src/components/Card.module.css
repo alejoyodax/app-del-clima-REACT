@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 170px;
+    width: 16vw;
+    
+    margin: 1vh 1vh;
+    border-radius: 8px;
+
+    border: 1px solid var(--color-border-card);
+}
+
+.immg{
+    width: 100px;
+    align-self: center;
+
+}
+
+.btn{
+    height: 5vh;
+    justify-content: center;
+    
+    background-color: var(--color-backgroud);
+    border-color: transparent;
+    color: var(--color-border-card);
+    
+    position: relative;
+
+    min-width: 30px;
+    min-height: 30px;
+
+    /* EL BOTON DEBE SER CUADRADO --> vw */
+    width: 1.2vw;
+    height: 1.2vw;
+
+    /* ESPACIO DESDE LOS BORDES DE LA TARJETA AL BOTON */
+    align-self: flex-end;    
+    right: 7px;
+    top: 7px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    
+}.btn:hover{
+    background-color: #a5a4a4;
+    border-color: transparent;
+    color: white;
+}
+
+.tempContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.tempContainer > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h3{
+    font-size: medium;
+}
